@@ -8,6 +8,7 @@ from smtplib import SMTP
 with sqlite3.connect('my_database.db') as connection:
     customer_websearch = input("please enter a url you would like to add")
     customer_name = input("please enter your name")
+    customer_email =input("please enter your email")
     
 
     cursor = connection.cursor()
